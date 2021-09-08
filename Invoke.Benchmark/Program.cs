@@ -20,16 +20,15 @@ namespace Invoke.Benchmark
             var bar = Helper.GetIBar();
 
             return new CallMethod[] {
-            //new("Baseline", new Baseline()),
-            //new("Interface", new WrapperOverInterface(bar)),
-            //new("Delegate", new WrapperOverDelegate(bar)),
-            //new("Delegate from MI", new WrapperOverDelegateFromMethodInfo(bar)),
-            //new("Delegate from ptr", new WrapperOverDelegateFromPtr(bar)),
-            //new("Ptr from delegate", new WrapperOverPtrFromDelegate(bar)),
+            new("Interface", new WrapperOverInterface(bar)),
+            new("Delegate", new WrapperOverDelegate(bar)),
+            new("Delegate from MI", new WrapperOverDelegateFromMethodInfo(bar)),
+            new("Delegate from ptr", new WrapperOverDelegateFromPtr(bar)),
+            new("Ptr from delegate", new WrapperOverPtrFromDelegate(bar)),
             new("Managed func ptr", new WrapperOverManagedFunPtr(bar)),
-            //new("Unmanaged func ptr", new WrapperOverUnmanagedFunPtr(bar)),
-            //new("DllImport", new WrapperOverDllImport()),
-            //new("DllGetProcAddr", new WrapperOverDllGetProcAddr()),
+            new("Unmanaged func ptr", new WrapperOverUnmanagedFunPtr(bar)),
+            new("DllImport", new WrapperOverDllImport()),
+            new("DllGetProcAddr", new WrapperOverDllGetProcAddr()),
             new("DllImportFCnGC", new WrapperOverNoGcTransitionDllImport())
         };
         }
