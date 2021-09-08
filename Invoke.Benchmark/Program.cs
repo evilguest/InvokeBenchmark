@@ -29,7 +29,7 @@ namespace Invoke.Benchmark
             new("Unmanaged func ptr", new WrapperOverUnmanagedFunPtr(bar)),
             new("DllImport", new WrapperOverDllImport()),
             new("DllGetProcAddr", new WrapperOverDllGetProcAddr()),
-            new("DllImportFCnGC", new WrapperOverNoGcTransitionDllImport())
+            new("DllImportNGC", new WrapperOverNoGcTransitionDllImport())
         };
         }
 
