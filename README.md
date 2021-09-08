@@ -1,5 +1,5 @@
 # InvokeBenchmark
-This is a simple project inspired by Dmitry Valyukov (https://rsdn.org/account/info/21096)
+This is a simple project inspired by Dmitry Valyukov (https://rsdn.org/account/info/21096).
 Idea is to measure the overhead of various methods to perform a direct or indirect call in .Net.
 
 ## Usage
