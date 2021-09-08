@@ -15,9 +15,9 @@ namespace Invoke.Benchmark
         public string? ScaleToParams { get; }
 
         public BaselineOffsetColumn(string scaleToParams) => ScaleToParams = scaleToParams;
-        public override string Id => nameof(BaselineOffsetColumn) + ScaleToParams == null ? "" : ScaleToParams!;
+        public override string Id => nameof(BaselineOffsetColumn) + (ScaleToParams == null ? "" : ScaleToParams);
 
-        public override string ColumnName => "Diff Ratio" + ScaleToParams == null?"":"( scaled to "+ ScaleToParams +")";
+        public override string ColumnName => "Diff Ratio" + (ScaleToParams == null ? "" : "( scaled to " + ScaleToParams + ")");
 
         public override int PriorityInCategory => 3;
 
