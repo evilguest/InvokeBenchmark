@@ -7,7 +7,8 @@ Idea is to measure the overhead of various methods to perform a direct or indire
 2. Build InvokeBenchmark.sln in the Release configuration
 3. Switch to the ./Invoke.Benchmark/bin/Release/Net5.0/ folder
 4. Run the Invoke.Benchmark.exe 
-*Note* that building/running on Linux is not (yet) supported.
+
+**Note** that building/running on Linux is not (yet) supported.
 ## Result comments 
 The "baseline" method represents a direct call to the method that adds one to the ulong reference passed to it.
 All the other methods are measured in terms of additonal overhead. Think of Ratio column values minus one - it will show how much time does the measured call method take compared to the "call and increment" operation. 
