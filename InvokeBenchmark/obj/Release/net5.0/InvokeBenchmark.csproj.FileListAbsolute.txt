@@ -1,0 +1,12 @@
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\bin\Release\net5.0\InvokeBenchmark.deps.json
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\bin\Release\net5.0\InvokeBenchmark.dll
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\bin\Release\net5.0\ref\InvokeBenchmark.dll
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\bin\Release\net5.0\InvokeBenchmark.pdb
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\obj\Release\net5.0\InvokeBenchmark.csproj.AssemblyReference.cache
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\obj\Release\net5.0\InvokeBenchmark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\obj\Release\net5.0\InvokeBenchmark.AssemblyInfoInputs.cache
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\obj\Release\net5.0\InvokeBenchmark.AssemblyInfo.cs
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\obj\Release\net5.0\InvokeBenchmark.csproj.CoreCompileInputs.cache
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\obj\Release\net5.0\InvokeBenchmark.dll
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\obj\Release\net5.0\ref\InvokeBenchmark.dll
+C:\Users\ruzlya00\source\repos\InvokeBenchmark\InvokeBenchmark\obj\Release\net5.0\InvokeBenchmark.pdb

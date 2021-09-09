@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+     Creating library C:\Users\ruzlya00\source\repos\InvokeBenchmark\x64\Release\FooLibrary.lib and object C:\Users\ruzlya00\source\repos\InvokeBenchmark\x64\Release\FooLibrary.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  FooLibrary.vcxproj -> C:\Users\ruzlya00\source\repos\InvokeBenchmark\x64\Release\FooLibrary.dll
